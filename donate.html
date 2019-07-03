@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img src="./assets/background-donate.jpg" alt="bckgound" class="bg" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="./components/donation/donation.js" async></script>
+    
+    <title>Donate</title>
+</head>
+<body>
+    <script defer="defer" src="./components/Dropdown/Dropdown.js"></script>
+        
+    
+        <header class="header-container">
+                <div class="dropdown">
+                    <div class="dropdown-button">Menu</div>
+                    <div class="dropdown-content dropdown-hidden">
+                        <a class="dropdown-link" href="./index.html" target="_blank">Home</a>
+                        <a class="dropdown-link" href="./about.html" target="_blank">About</a>
+                        <a class="dropdown-link" href="./donate.html" target="_blank">Donate</a>
+                        <a class="dropdown-link" href="./contact.html" target="_blank">Contact</a>
+                     </div>
+                </div>
+                <img id ="luncherHeaderImg" src="./assets/logo1.png"  />
+                <nav>
+                        <a href="./index.html">Home</a>
+                        <a href="./about.html">About</a>
+                        <a href="./donate.html">Donate</a>
+                        <a href="./contact.html">Contact</a>
+                  </nav>
+                </header>
+
+<!-- TOP BAR COMPONENT -->
+             
+            
+    <div class="main-card"> 
+       
+          <div class="text-Header">
+             <h1>JOIN OUR MOVEMENT</h1>
+             <p>When you donate to Luncher, you become a force for human rights. <br>You and millions of other supporters are coming together to amplify your impact.<br> You make Luncher work possible.
+
+                Thank you!</p>
+         </div>
+
+  <!-- TABS COMPONENT -->
+  <div class="tabs">
+    <div class="TypesDonation">
+      <div data-tab="donate-one" class="tab active-tab" >DONATE ONE TIME</div>
+      <div data-tab="donate-monthly" class="tab">DONATE MONTLY</div>
+      
+    </div>
+  </div>
+
+ 
+
+  <!-- CARDS COMPONENT -->
+  <div class="cards-container">
+
+    <!-- CARD COMPONENTS -->
+    <div class="cards" data-tab="donate-one" style="display: flex;">
+      <div class="amount">$250</div>
+      
+    </div>
+
+    <div class="cards" data-tab="donate-one" style="display: flex;">
+      <div class="amount">$100</div>
+     
+    </div>
+
+    <div class="cards" data-tab="donate-one" style="display: flex;">
+      <div class="amount">$50</div>
+      
+    </div>
+
+    <div class="cards" data-tab="donate-one" style="display: flex;">
+      <div class="amount">$35</div>
+      
+    </div>
+
+    <div class="cards" data-tab="donate-monthly" style="display: none;">
+      <div class="amount">$55</div>
+      
+    </div>
+
+    <div class="cards" data-tab="donate-monthly" style="display: none;">
+      <div class="amount">$35</div>
+      
+    </div>
+
+    <div class="cards" data-tab="donate-monthly" style="display: none;">
+      <div class="amount">$25</div>
+      
+      </div>
+
+    <div class="cards" data-tab="donate-monthly" style="display: none;">
+      <div class="amount">$15</div>
+      
+    </div>
+
+    <input id="myInput" type="text" placeholder="$Enter Amount" name="amount" required>
+
+    
+ </div>
+
+ <div class="donate-btn">
+                                    
+    <button type="submit" class="donateBtn">DONATE</button>
+  </div>
+
+  
+ 
+  <div class="thankYou">
+      <h1>Thank you for you donation of </h1> 
+      <h1 class="theMoney">$3000</h1>
+      <h1>Your Account will be charge  promptly </h1>
+  </div>
+
+</div>
+
+  
+            </body>
+
+            <footer>
+                    <p>Copyright 2019</p>
+            </footer>
+                  
+</html>

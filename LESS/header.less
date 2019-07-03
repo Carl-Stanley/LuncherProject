@@ -1,0 +1,75 @@
+// header Menu for all pages 
+
+html{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+.header-container{
+    display:flex;
+    justify-content:flex-end;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    
+
+    nav{
+    display:flex;
+    justify-content:flex-end; 
+    width: 100%;
+    margin-top: 31px;
+    
+    a{
+        margin: 0 40px 0;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: @white;
+
+        &:hover{
+        color: #444B55;
+        
+        
+        }
+
+    }
+    
+   
+   
+
+    }
+    }
+
+    @media @tablet{
+        .header-container nav{
+          display: none;
+        }
+        }
+
+
+
+        #luncherHeaderImg {
+
+          width: 298px;
+          height: 95px;
+
+          @media @mobile {
+
+            width: 149px;
+            height: 47.5px;
+            margin: 0 auto;
+
+
+          }
+
+
+        }       
+
+
+        @media @tablet{
+          #luncherHeaderImg{
+            margin: 12px auto;
+          }
+        }

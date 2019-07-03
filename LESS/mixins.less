@@ -1,0 +1,28 @@
+.width-carousel {
+
+  width: 85%;
+ 
+}
+      
+  .flex(@jc: center, @ai: center, @dir: row) {
+    display: flex;
+    justify-content: @jc;
+    align-items: @ai;
+    flex-direction: @dir;
+  }
+
+  
+  //MY BUTTON
+
+  @b: @green-aqua; 
+ 
+  .button(@width, @height, @b, @padding, @color, @fontsize) {
+    width: @width;
+    height: @height;
+    background-color: @bg-color;
+    padding: @padding;
+    color: @color;
+    font-size: @fontsize;
+    transition-duration: .2s;
+    
+  }
